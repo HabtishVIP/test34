@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ቃል (The Word)</title>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link type="text/css" rel="stylesheet" href="../reset.css">
+<link type="text/css" rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="topo">
+	<img src="../imgs/topo-amh.png"/>
+</div>
+
+<script type="text/javascript">
+
+	var verso = [
+		"አንተ እንዳልበድል፥ ቃልህን በልቤ ሰወርሁ። መዝሙረ ዳዊት 119:11",
+"የቃልህ ፍቺ ያበራል፥ ሕፃናትንም አስተዋዮች ያደርጋል። መዝሙረ ዳዊት 119:130",
+"እርሱም መልሶ። ሰው ከእግዚአብሔር አፍ በሚወጣ ቃል ሁሉ እንጂ በእንጀራ ብቻ አይኖርም ተብሎ ተጽፎአል አለው። የማቴዎስ ወንጌል 4:4",
+"ሰማይና ምድር ያልፋሉ፥ ቃሌ ግን አያልፍም። የማቴዎስ ወንጌል 24:35",
+"በመጀመሪያው ቃል ነበረ፥ ቃልም በእግዚአብሔር ዘንድ ነበረ፥ ቃልም እግዚአብሔር ነበረ። ...ቃልም ሥጋ ሆነ፤ ጸጋንና እውነትንም ተመልቶ በእኛ አደረ፥ አንድ ልጅም ከአባቱ ዘንድ እንዳለው ክብር የሆነው ክብሩን አየን። የዮሐንስ ወንጌል 1:1,14",
+"ሕይወትን የሚሰጥ መንፈስ ነው፤ ሥጋ ምንም አይጠቅምም፤ እኔ የነገርኋችሁ ቃል መንፈስ ነው ሕይወትም ነው። የዮሐንስ ወንጌል 6:63",
+"እናንተ ስለ ነገርኋችሁ ቃል አሁን ንጹሐን ናችሁ፤ የዮሐንስ ወንጌል 15:3",
+"የእውነትን ቃል በቅንነት የሚናገር የማያሳፍርም ሠራተኛ ሆነህ፥ የተፈተነውን ራስህን ለእግዚአብሔር ልታቀርብ ትጋ። 2ኛ ወደ ጢሞቴዎስ 2:15",
+"የእግዚአብሔር ቃል ሕያው ነውና፥ የሚሠራም፥ ሁለትም አፍ ካለው ሰይፍ ሁሉ ይልቅ የተሳለ ነው፥ ነፍስንና መንፈስንም ጅማትንና ቅልጥምንም እስኪለይ ድረስ ይወጋል፥ የልብንም ስሜትና አሳብ ይመረምራል፤ ወደ ዕብራውያን 4:12",
+"ጌታ ቸር መሆኑን ቀምሳችሁ እንደ ሆነ፥ ለመዳን በእርሱ እንድታድጉ አሁን እንደ ተወለዱ ሕፃናት ተንኰል የሌለበትን የቃልን ወተት ተመኙ። 1ኛ የጴጥሮስ መልእክት 2:3"
+	];
+
+</script>
+
+
+
+<script type="text/javascript">
+	var i = 0;
+	var max = verso.length;
+	while (i < max) {
+    document.write(
+		'<div class="verso">'
+		+'<p>'
+		+verso[i]
+		+'</p>'
+		+'<a class="whatsapp" href="whatsapp://send?text='+verso[i]+'%0A%0Ahttp://android-bible.com/go/amh_verses'+'"><img src="../imgs/whatsapp.png" /></a>'
+		+'</div>'
+	);
+    i++;	
+	}
+</script>
+
+
+
+</body>
+</html>
